@@ -96,3 +96,24 @@ nginx-docker/
 
 ```
 
+```
+Nginx adalah perangkat lunak server web dan proxy terbalik yang dikenal karena kinerja tinggi, stabilitas, dan kemampuannya untuk menangani banyak koneksi secara efisien. Selain itu, Nginx juga digunakan sebagai load balancer dan caching server.
+```
+```
+Nginx (diucapkan "engine x") adalah perangkat lunak server web dan proxy terbalik (reverse proxy) yang digunakan untuk melayani situs web dan aplikasi. Nginx dikenal karena kinerja tinggi, stabilitas, set fitur yang kaya, dan konfigurasi yang sederhana. Berikut adalah beberapa fungsi utama dari Nginx:
+
+1. **Server Web**: Nginx dapat berfungsi sebagai server web yang melayani konten statis (seperti HTML, gambar, dan video) kepada pengguna.
+
+2. **Reverse Proxy**: Nginx dapat bertindak sebagai proxy terbalik, yang berarti dapat meneruskan permintaan dari klien ke server backend (seperti aplikasi web atau database) dan kemudian mengirimkan respons dari server backend kembali ke klien. Ini membantu dalam mengelola lalu lintas dan meningkatkan kinerja serta keamanan.
+
+3. **Load Balancer**: Nginx dapat mendistribusikan beban lalu lintas ke beberapa server backend, yang meningkatkan ketersediaan dan kinerja aplikasi.
+
+4. **Cache**: Nginx dapat digunakan untuk caching konten, yang mengurangi beban pada server backend dan mempercepat waktu respons untuk pengguna.
+
+5. **FastCGI, uWSGI, dan SCGI**: Nginx mendukung protokol-protokol ini untuk berkomunikasi dengan aplikasi server seperti aplikasi berbasis PHP, Python, dan lainnya.
+
+6. **HTTP/2 dan gRPC**: Nginx mendukung protokol modern seperti HTTP/2 dan gRPC yang meningkatkan efisiensi komunikasi antara klien dan server.
+
+Nginx sangat populer dalam lingkungan web modern karena kemampuannya untuk menangani jumlah koneksi yang sangat besar dengan penggunaan sumber daya yang minimal, menjadikannya pilihan utama untuk banyak situs web besar dan layanan online.
+
+```

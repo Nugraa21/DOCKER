@@ -119,8 +119,10 @@ Nginx sangat populer dalam lingkungan web modern karena kemampuannya untuk menan
 
 - mvc 
 
-yow cui kali gue akan memberikan tutorial sederhana bagaimana si cara membuat server localhost di docker dengan menggunakan Nginx 
-dan 
+yow cui kali gue akan memberikan tutorial sederhana bagaimana si cara membuat server localhost di docker dengan menggunakan Nginxj
+biasanyakkalian memakai Xampp dan paragonddi docker ini biar di akses tanpa menggunakan software tersebut
+jadi semua program kita bisa berjalan di atas docker 
+
 sebelum ke praktek sayajelaskan dulu apa itu NGINX 
 
 NGINX adalah sebuah  perangkat lunak atau web server yang open source yang sering di gunakan karena mempunyai performa yang tinggi ,stabilitas 

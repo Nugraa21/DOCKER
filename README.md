@@ -120,8 +120,7 @@ Nginx sangat populer dalam lingkungan web modern karena kemampuannya untuk menan
 - mvc 
 
 yow cui kali gue akan memberikan tutorial sederhana bagaimana si cara membuat server localhost di docker dengan menggunakan Nginxj
-biasanyakkalian memakai Xampp dan paragonddi docker ini biar di akses tanpa menggunakan software tersebut
-jadi semua program kita bisa berjalan di atas docker 
+biasanyakkalian memakai Xampp dan paragon dengan menggunakan docker kalian tidak memerlukan software tersebut jadi semua program kalian bisa berjalan di atas docker dengan Nginx 
 
 sebelum ke praktek sayajelaskan dulu apa itu NGINX 
 

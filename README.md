@@ -124,7 +124,7 @@ biasanya kita memakai Xampp dan paragon dengan menggunakan docker kalian tidak m
 
 sebelum ke praktek sayajelaskan dulu apa itu NGINX 
 
-NGINX adalah sebuah  perangkat lunak atau web server yang open source yang sering di gunakan karena mempunyai performa yang tinggi ,stabilitas 
+NGINX adalah sebuah  perangkat lunak atau web server open source yang sering di gunakan karena mempunyai performa yang tinggi ,stabilitas 
 dan penggunaan sumberdaya yang minim { maksutnya dia berbasih cloud dan tidak memerlukan kode enggin yang banyak }
 dan ENGGINX juga bisa di gunakan seprti { web server ,reverse proxy .load balancing ,casing dan email proxy }
 

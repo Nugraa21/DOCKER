@@ -128,34 +128,3 @@ dan disini saya akan menggunakan ENGINX untuk web server
 
 kalian buka vscode terserah kalian mau menggunakan apa tetapi saya menggunakan vs code lalu
 
-# Gunakan image Nginx resmi dari Docker Hub
-FROM nginx:latest
-
-# Salin file konfigurasi Nginx ke dalam container
-COPY ./nginx.conf /etc/nginx/nginx.conf
-
-# Salin seluruh directory html ke dalam direktori Nginx
-COPY ./html /usr/share/nginx/html
-
-events {}
-
-http {
-    server {
-        listen 80;
-        server_name localhost;
-
-        location / {
-            root /usr/share/nginx/html;
-            index index.html;
-        }
-
-        # Tambahan konfigurasi untuk mendukung akses ke CSS dan JS
-        location /css {
-            root /usr/share/nginx/html;
-        }
-
-        location /js {
-            root /usr/share/nginx/html;
-        }
-    }
-}

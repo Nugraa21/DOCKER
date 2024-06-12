@@ -116,3 +116,46 @@ Nginx (diucapkan "engine x") adalah perangkat lunak server web dan proxy terbali
 
 Nginx sangat populer dalam lingkungan web modern karena kemampuannya untuk menangani jumlah koneksi yang sangat besar dengan penggunaan sumber daya yang minimal, menjadikannya pilihan utama untuk banyak situs web besar dan layanan online.
 
+
+- mvc 
+sebelum ke praktek sayajelaskan dulu apa itu NGINX 
+
+NGINX adalah sebuah  perangkat lunak atau web server yang open source yang sering di gunakan karena mempunyai performa yang tinggi ,stabilitas 
+dan penggunaan sumberdaya yang minim { maksutnya dia berbasih cloud dan tidak memerlukan kode enggin yang banyak }
+dan ENGGINX juga bisa di gunakan seprti { web server ,reverse proxy .load balancing ,casing dan email proxy }
+
+dan disini saya akan menggunakan ENGINX untuk web server 
+
+kalian buka vscode terserah kalian mau menggunakan apa tetapi saya menggunakan vs code lalu
+
+# Gunakan image Nginx resmi dari Docker Hub
+FROM nginx:latest
+
+# Salin file konfigurasi Nginx ke dalam container
+COPY ./nginx.conf /etc/nginx/nginx.conf
+
+# Salin seluruh directory html ke dalam direktori Nginx
+COPY ./html /usr/share/nginx/html
+
+events {}
+
+http {
+    server {
+        listen 80;
+        server_name localhost;
+
+        location / {
+            root /usr/share/nginx/html;
+            index index.html;
+        }
+
+        # Tambahan konfigurasi untuk mendukung akses ke CSS dan JS
+        location /css {
+            root /usr/share/nginx/html;
+        }
+
+        location /js {
+            root /usr/share/nginx/html;
+        }
+    }
+}
